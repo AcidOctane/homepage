@@ -1,10 +1,588 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello  World! &#x1F609;
-  </body>
+    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+</head>
+<body>
+    <header>
+        <div class="credits">
+            Inspired by <a href="https://dribbble.com/shots/1828130-Resume" rel="external"><strong>Resume by Iryna Nezhynska</strong></a> 😍
+        </div>
+    </header>
+    <main>
+        <article>
+            <div class="page" style="border-color: seagreen;">
+                <div class="stackable grid">
+                    <div class="row">
+                        <div class="three wide center aligned column">
+                            <div class="avatar-wrapper">
+                                <object class="avatar" data="./assets/images/avatar.png" role="img" aria-label="My profile picture"></object>
+                            </div>
+                        </div>
+                        <div class="thirteen wide column">
+                            <div class="stackable grid">
+                                <div class="sixteen wide column">
+                                    <h1 class="name">Peter Griffin</h1>
+                                    <div class="job">Pawtucket Brewery, shipping department</div>
+                                    <ul class="contacts">
+                                        <li>
+                                            <a href="https://www.instagram.com/peterpumpkineater69/" rel="author" class="instagram">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z" /></svg>
+                                                <span>peterpumpkineater69</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:(401) 555-1125" rel="author" class="phone">
+                                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
+                                                <span>(401) 555-1125</span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="mailto:petergriffin@pawtucket.com" rel="author" class="mail">
+                                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sixteen wide mobile only column">
+                                    <div class="divider"></div>
+                                </div>
+                                <div class="sixteen wide column">
+                                    <h2>Resume</h2>
+
+                                    <p> Peter Löwenbräu Griffin, Sr.</p>
+
+                                    <div style="opacity: 0.75;">
+                                        Born Justin Peter Griffin, is a man of Irish descent currently residing in
+                                        <strong style="margin-left: 0.0625em;">Quahog, Rhode Island</strong> with his wife Lois Griffin.
+                                        <ul>
+                                            <li>
+                                                Steven Hemsley Gerber (actual name)
+                                            </li>
+                                            <li>
+                                                Kichwa Tembo (African name)
+                                            </li>
+                                            <li>
+                                                Gggwggwg (Hebrew name)
+                                            </li>
+                                            <li>
+                                                Neng2 Shen (Chinese name)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <div class="fat divider"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="ten wide column">
+                            <h3>Experience</h3>
+                            <ul class="timeline">
+                                <li>
+                                    <p><em>25<sup>th</sup> September 2005 </em></p>
+                                    <p><strong>Shipping Department</strong> at <strong><a href="https://familyguy.fandom.com/wiki/Pawtucket_Brewery" rel="external">The Pawtucket Brewery</a></strong></p>
+                                    <ul>
+                                        <li>working for a mentally handicapped man whom he can’t understand, but is more qualified than him</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p><em>19<sup>th</sup> September 2001 &ndash; 31<sup>st</sup> October 2005</em></p>
+                                    <p><strong>Fisherman</strong> at <strong><a href="https://familyguy.fandom.com/wiki/S.S._More_Powerful_Than_Superman,_Batman,_Spider-Man,_and_the_Incredible_Hulk_Put_Together" rel="external">The S.S. More Powerful Than Superman, Batman, Spider-Man, and The Incredible Hulk Put Together</a></strong></p>
+                                    <ul>
+                                        <li>catch fish, ride a boat, don't wreck it (failed)</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p><em>31<sup>st</sup> January 1999 &ndash; 5<sup>th</sup> September 2001</em></p>
+                                    <p><strong>Line worker</strong> at <strong><a href="https://familyguy.fandom.com/wiki/Happy-Go-Lucky_Toy_Factory" rel="external">Happy-Go-Lucky Toy Factory</a></strong></p>
+                                    <ul>
+                                        <li>check the line for dangerous toys</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="six wide column">
+                            <section>
+                                <ul>
+                                    <li class="details">
+                                        <input type="checkbox" id="other">
+                                        <label for="other" class="summary">If you are interested in complete biography &#x1f389;</label>
+                                        <div>
+                                            <ul>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        Conception & Birth
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Peter was born, when his biological father, Mickey McFinnagin took his then-girlfriend, (Peter's mother), Thelma to an extreme bull fighting show. At the show, Mickey took Thelma into the port-a-potty with her and knocked her up, impregnatig her with Peter, and then left the day after, never calling her again. Months later, Thelma decided to get an abortion, so she went to Mexico, to have the illegal prodecure done at Embryo Bell. However, at this point in the pregnancy, the baby was too developed and it was too late for an abortion, despite her only being pregnant for six months and Peter was prematurely born there on the spot. When Thelma saw her newborn child, she thought he was beautiful and wanted to raise him and care for him, so he could live a full life. So, she went back to America. However, she was too embarassed about what happened to tell anyone about it, so she never filled out the proper files to legally make Peter into an American citizen, so he technically remained an illegal immigrant for most of his life.
+                                                                Not wanting Peter to grow up without a father, Thelma married Francis Griffin and passed him off as Peter's biological father, throughout his entire childhood, not telling Peter the actual truth.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        Childhood
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                As a child, Peter was raised by Thelma and Francis Griffin.
+                                                                Tthe ghost of Patrick Swayze took Peter back to a Christmas, when Peter was 5 years old.
+                                                                When Peter was 6 years old, Thelma gave birth to his sister, Karen Griffin, who would always abuse and bully him.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        Teenage Years
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Peter attended Buddy Cianci Junior High School as a middle schooler and attended Providence High School as a high schooler.
+                                                                During his high school years, Peter and his friend, Cleveland, got a part-time job, working as a towel boy for the rich pricks in Newport, where he was mistreated by the workers and sorrowfully underpaid. There, he met Lois for the first time. He fell in love with her and became her friend, much to the disapproval of Carter Pewterschmidt, who only wanted Lois to go out with rich white people from Newport. During high school, Glenn Quagmire was the love rival of Peter, who was also courting Lois and if it wasn't for Peter, Lois would have married Quagmire.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        Adulthood
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Peter, Cleveland, and Quagmire were friends in high school. Though Peter didn't first meet Quagmire until he was rescued by him as a college student and didn't meet Cleveland until shortly after that when Cleveland picked him up in his van after leaving Stoolbend, Virginia.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        College Years
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Peter was in college, when he first started noticing breasts developing on women. At this time, Peter also started developing man boobs. Peter met Lois before college and never had the chance to go crazy with the college girls.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        Marriage to Lois
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Despite never winning the approval of Carter and Babs Pewterschmidt, Peter still married Lois, as the latter gave her approval. One thing is for certain, however. Peter married Lois in the '90s, much to the disapproval of the latter's parents, as well as Peter's father and as for Peter and Lois, it was the happiest day of both of their lives.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">
+                                                        Becoming a Dad
+                                                    </label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Together, Peter and Lois have three children, Chris, Meg, and baby Stewie. After a mix up at a sperm bank, Peter also became the biological father of Bertram. In addition, he and Lois had a child named Peter Griffin Jr. who died when Peter shook him too much. Out of pity he also adopted an intellectual talking dog named Brian who formerly lived on the street as a stray.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="details">
+                                                    <input type="checkbox" id="other">
+                                                    <label for="other" class="summary">Present Day</label>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                Peter Griffin is a man in his mid to late '40s, being a loud, destructive idiot, who serves as a terrible dad and lousy husband.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h3>Languages</h3>
+                                <p class="tags small"><span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+                            </section>
+                            <section>
+                                <h3>Likes&#x1f603;</h3>
+                                <p class="tags small">
+                                    STAR TREK | THREE'S COMPANY | CHARLES IN CHARGE |<span class="nowrap">KISS</span> BARRY MANILOV | THE TRASHMEN'S SURFIN' BIRD
+                                    <button id="meh" class="audio">
+                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z" /></svg>
+                                        <audio preload="none">
+                                            <source src="./assets/sounds/bird.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </button>
+                                </p>
+                            </section>
+                            <section>
+                                <h3>Wants🥺</h3>
+                                <p class="tags small bulleted"><span class="tag">TO BE FIT AND HEALTHY</span><span class="tag">TO OWN MY SCHEDULE</span><span class="tag">TO READ MORE</span><span class="tag">TO OPEN A CAFÉ</span><span class="tag">TO BE BRAVE</span><span class="tag">TO BECOME A SUPERHERO</span><span class="tag">TO LISTEN AND LEARN</span></p>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="ten wide column">
+                            <ul>
+                                <!-- Appearance -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary"><h3>Appearance</h3></label>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                Peter Griffin is a fat, overweight guy who stands at 6'0" and weighs 270 lbs.
+                                            </li>
+                                            <li>
+                                                He has short cut brown hair and a big fat head which has become one with his neck.
+                                            </li>
+                                            <li>
+                                                He has big, round eyes and a round nose, and a big mouth.
+                                            </li>
+                                            <li>
+                                                His chin has a very large and deep cleft in it, making the rest of his chin very big and rounded.
+                                            </li>
+                                            <li>
+                                                He wears glasses which are very thin and are the exact same shape and size as his eyeballs, making them pretty invisible at most times.
+                                            </li>
+                                            <li>
+                                                He wears a white buttoned shirt with a collar and slightly rolled up sleeves.
+                                            </li>
+                                            <li>
+                                                He also has green pants and a black belt with a golden buckle. He also has dark brown shoes.
+                                            </li>
+                                            <li>Peter Griffin's eye color is green.</li>
+                                            <li>
+                                                Peter Griffin had a miniature vestigial twin that was buried under the flesh of his shoulder. His vestigial twin was named Chip Griffin and he basically looked like a miniature version of himself with a chubbier head and somehow, glasses despite being trapped under his skin for all those years. Chip was surgically removed and sent away.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- Personality -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">
+                                        <h3>Personality</h3>
+                                    </label>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                An I.Q. test confirms that his low intellect places him in a category below mentally retarded.
+                                            </li>
+                                            <li>
+                                                He rushes off to attend Quahog College just to count to three.
+                                            </li>
+                                            <li>
+                                                His mental shortcomings have resulted in various accidents to other people; most notably the death of his step-father Francis Griffin, and injuries on multiple occasions to his wife Lois.
+                                            </li>
+                                            <li>
+                                                His attention span is also incredibly short. When he discovered his mental retardation, he closed his eyes while driving, wishing "it would all be over" and hitting Tom Tucker with his car instead.
+                                            </li>
+                                            <li>
+                                                Given his short attention span, as well as his erratic and frequently inappropriate behavior, it is conceivable that Peter suffers from Attention Deficit Hyperactivity Disorder, or ADHD.
+                                            </li>
+                                            <li>
+                                                In addition, Peter is often seen getting hurt mostly by his own fault. When trying to impress Chris with his forward-thinking, Peter claims it is still 1988.
+                                            </li>
+                                            <li>
+                                                He is incredibly jealous of other attractions Lois has in her life, an attitude that tends to get out of hand in most cases; he goes so far as to punch his reflection in the mirror after Lois comments on it being handsome. He tells Lois,
+                                                <blockquote>
+                                                    <em>
+                                                        "Remember what I always tell you, if I come home in the middle of the day and catch you having sex with someone, I'll kill you both""
+                                                    </em>
+                                                </blockquote>
+
+                                                though when he catches her in bed with Bill Clinton, he takes no hostile actions whatsoever.
+                                            </li>
+                                            <li>
+                                                However, he seems not to mind the fact that she slept with other men before they met, just so long as she doesn't do so again; he is particularly proud of the fact that she once slept with Gene Simmons of Kiss when he discovers this, but forbids any sexual activity between the two now .
+                                            </li>
+                                            <li>
+                                                Among the members of his family, he tends to treat Meg with the least respect; he reminisces about the various pranks he played on her, including tripping her, flicking her nose with his finger, and even shooting her at one point. Also, he wipes a boogie on her hat saying
+                                                <blockquote>
+                                                    <em>
+                                                        "Hey Meg...proud of you"
+                                                    </em>
+                                                </blockquote>
+                                            </li>
+                                            <li>
+                                                He is known to embarrass her at times and with things that mean the most to Meg; the entire family once huddled together to read her diary and continue after Meg catches them.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Intelligence -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">
+                                        <h3>Intelligence</h3>
+                                    </label>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                Peter Griffin has undeniably proven to be a complete idiot. He is making stupid, unintelligent comments followed by him performing a ridiculous action. He never learns from his mistakes and will always go right back to doing them again. All in all, he's your everyday comedic idiot and definitely falls under the "stupid" category.
+                                            </li>
+                                            <li>
+                                                Looking deeper into Peter's stupidity, we can see that most of his brainless behavior seems to be done out of immaturity. At times he demonstrates the intelligence level of a teenage boy in his "jackass" phase, pulling off dumb and dangerous stunts that only get him hurt and at other times, he acts like a four year old boy, taking on the personality of a little kid perfectly.
+                                            </li>
+                                            <li>
+                                                Peter never passed the third grade. Despite having not passed the third grade, he was seen passing the fourth grade. Also, there's been a lot of flashbacks to him in middle school and high school and college, so I guess it's reasonable to say that even though he never technically passed those grades, the school board still let him move on to other grades and he can just go back to those classes and waste his time on school whenever he wants.
+                                            </li>
+                                            <li>
+                                                Peter has shown some sparks of being smarter than those around him, when James Woods returns to get revenge, Peter and Brian get rid of him exactly the same way they did the first time, using a box and trail of candy, he makes a point that next time Woods shows up they should do that in the beginning as he has already fallen for it twice.
+                                            </li>
+                                            <li>
+                                                Peter does have ideas he thinks are smart but often back fire, such as when he got his new drivers license he decided to have the picture taken when he was drunk, so if a cop pulled him over for DUI when he looked at his license he would think he was just fine.
+                                            </li>
+                                            <li>
+                                                Also despite being married to Lois for 20 years, he was unable to realize she was in danger despite her acting very odd. As well as was more interested in listening to his songs than to pay any real attention. He also firmly believed that Derek Wilcox was a God due to the fact the picture on his phone made him look as if he was holding up the Hollywood sign, despite Derek clearing explaining to him it was merely a camera trick.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- Relationships -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">
+                                        <h3>Relationships</h3>
+                                    </label>
+                                    <div>
+                                        <ul>
+                                            <span></span>
+                                            <h4>Family</h4>
+                                            <ul>
+                                                <li>
+                                                    <strong><em>Lois Griffin</em></strong>    - Peter is the husband of Lois. Lois loves Peter because he's so delightful, funny, and cheery and he makes everybody happy just with his joyous nature alone. Although Peter will occasionally drive Lois nuts with his crazy antics and nonsensical behavior, she still loves him and he still loves her. When the show went through seasonal rot, this all changed, where the new formula of the shoe was Peter drives Lois crazy by being an obnoxious idiotic husband who doesn't respect and cherish her and treats her like shit and she still stays with him for no reason.
+                                                </li>
+                                                <li>
+                                                    <strong><em>Chris Griffin</em></strong> - Peter is the father of Chris, who teaches his son a bunch of valuable life lessons like which way to lean while he farts. Chris has kind of fallen in his father's footsteps and become a fat dumbass like him. It's obvious that he's gunna be just like him when he grows up.
+                                                </li>
+                                                <li>
+                                                    <strong>
+                                                        <em>
+                                                            Meg Griffin
+                                                        </em>
+                                                    </strong> - Peter abuses Meg all the time by farting in her face and telling her to shut up, via his famous catchphrase,
+                                                    <blockquote>
+                                                        <em>
+                                                            "Shut up, Meg."
+                                                        </em>
+                                                    </blockquote>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Stewie Griffin</em></strong>  - Peter is the father of Stewie and he doesn't understand what he says. Their interactions are generally meaningless, but Peter treats Stewie like a regular baby and that's all.
+                                                </li>
+                                                <li>
+                                                    <strong><em>Brian Griffin</em></strong>  - Peter owns Brian as his pet dog. Brian is the voice of reason to how stupid Peter is. He is his very best friend.
+                                                </li>
+
+                                            </ul>
+
+                                            <ul>
+                                                <h4>Friends</h4>
+
+                                                <li>
+                                                    <strong><em>Beer Bar Buddies</em></strong>  - Aside from Brian, Peter's best friends are Glenn Quagmire, Joe Swanson, Cleveland Brown and Jimmy Wendell Colton VII. They enjoy hanging out at their local bar, The Drunken Clam, drinking and chewing the fat. The four men do many things together. Once the four friends entered and won a costume contest at an 80s TV convention, dressing up as the A-Team. On another occasion, their fishing boat was wrecked, and they were stranded together on a desert island.
+                                                </li>
+                                                <li>
+                                                    <strong><em>Glenn Quagmire</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Cleveland Brown</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Joe Swanson</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Bonnie Swanson</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Horace</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Jerome Cool J</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Mort Goldman</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Muriel Goldman</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Seamus Levine</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Tom Tucker</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Elmer Hartman</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Bruce</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Consuela De La Morrela</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Dave Campbell</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Dotty Campbell</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Jillian Russel-Wilcox</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Ida Davis</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Death</em></strong>
+                                                </li>
+                                                <li>
+                                                    <strong><em>Jesus Christ</em></strong>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- Enemies -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">
+                                        <h3>Enemies</h3>
+                                    </label>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <strong><em>Giant Chicken</em></strong> - the feud starts over a trivial incident where the chicken gives Peter an expired coupon at the grocery store. The chicken is identified as "Ernie", and he has a wife named Nicole, also a giant chicken. Peter is invited to dinner with them after they realize that their fighting is pointless, but then they argue over who will pay the bill, and the fighting starts all over again. Ernie makes a brief, non-fighting appearance, in which Peter unwittingly assaults the giant chicken at a 90s dance, retroactively providing Ernie with a grudge against Peter. Ernie was also mentioned when Peter was hospitalized due to kidney failure, Brian offered to give Peter his kidney. In response to the family's shock, Dr. Hartman stated that this transplant was not the only crazy thing that took place in medical research, and said that he once attempted to clone a chicken. This resulted in the original chicken to grow human-sized, violent, and incredibly hostile.
+                                            </li>
+                                            <li>
+                                                <strong><em>James Woods</em></strong>
+                                            </li>
+                                            <li>
+                                                <strong><em>Homer Simpson</em></strong>
+                                            </li>
+                                            <li>
+                                                <strong><em>Donald Trump</em></strong>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- Health -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">
+                                        <h3>Health</h3>
+                                    </label>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                Despite being obese, a heavy drinker, and accident-prone, Peter appears to be in great health. Periodically, Peter is shown recovering quickly from serious injuries, such as losing all the fingers on his right hand while handling M-70 firecrackers. In spite of the injury, he has no visible scarring on his hand. He displays enormous strength, such as when single handedly challenging a professional football team in "Patriot Games". Peter played high school football and his sister mentions his wearing a bra while playing.
+                                            </li>
+                                            <li>
+                                                Peter asserts that he weighs 399lbs, the same as he did in grade school. During Peter's "poop montage", he loses over 50 pounds; going from around 430 lbs to 360 lbs.
+                                            </li>
+                                            <li>
+                                                He underwent a vasectomy.
+                                            </li>
+                                            <li>
+                                                Occasionally Peter soils himself. After these accidents, he never seems to notice that it was a result of his own behavior.
+                                            </li>
+                                            <li>
+                                                Peter has used various drugs such as LSD, Meth, "ecstasy", marijuana, steroids, cocaine, and crack cocaine, but has managed to avoid incarceration and long-term effects from the use of these drugs.
+                                            </li>
+                                            <li>
+                                                After eating thirty hamburgers in one sitting, Peter suffered a stroke that paralyzed the left side of his body. For the next three months he walked with a limp, his arm and leg hung lifelessly from his body, and his eye and part of his mouth had slid down his face, giving him a speech impediment. This damage was reversed completely after a five minute session at a stem cell research facility.
+                                            </li>
+                                            <li>
+                                                Peter's mass causes him to have his own gravitational pull, shown when Brian threw an apple, a glass of water, a book and a Television, which immediately started to orbit his body.
+                                            </li>
+                                            <li>
+                                                Peter used to smoke.
+                                            </li>
+                                            <li>
+                                                Peter as a child was never immunized for the mumps.
+                                            </li>
+                                            <li>
+                                                Peter suffers a kidney failure from a homemade energy drink. Brian offers do donate his kidneys, which would kill him. Before the surgery, Dr. Hartman offers to give up one of his kidneys, which he does and reveals that Brian's kidneys could not have been transferred to Peter's body.
+                                            </li>
+                                            <li>
+                                                Peter's estranged sister Karen Griffin visits for Thanksgiving and reveals several personal details to his friends, including that when upset, he stutters and pees his pants.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- Car -->
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">
+                                        <h3>Car</h3>
+                                    </label>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                Peter's car strongly resembles a 1977 Ford LTD Station Wagon although no specific brand has been mentioned and there is a remark about it having a flip-down TV in a mid-'81s station wagon.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <em>“That's all Folks!”</em>&nbsp;🐷
+    </footer>
+    <script>
+		function callFuncOnCollection(collection, func) {
+			Array.prototype.slice.call(collection).map(function (item) {
+				func(item);
+			});
+		}
+		var childhoodPhotos = document.getElementById("childhood").getElementsByClassName("photos")[0];
+		document.getElementById("resume").addEventListener("click", function() {
+			callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		});
+		if (window.location.hash === "#childhood") {
+			callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
+		}
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function() {
+				navigator.serviceWorker.register('/sw.js');
+			});
+		}
+    </script>
+</body>
 </html>
