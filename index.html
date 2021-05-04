@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    
 </head>
 <body>
     <header>
         <div class="credits">
             Inspired by <a href="https://dribbble.com/shots/1828130-Resume" rel="external"><strong>Resume by Iryna Nezhynska</strong></a> 😍
         </div>
+        <audio autoplay controls>
+            <source src="./assets/sounds/laugh.mp3" type="audio/mpeg">
+        </audio>
     </header>
     <main>
         <article>
@@ -571,18 +575,7 @@
 				func(item);
 			});
 		}
-		var childhoodPhotos = document.getElementById("childhood").getElementsByClassName("photos")[0];
-		document.getElementById("resume").addEventListener("click", function() {
-			callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
-		});
-		if (window.location.hash === "#childhood") {
-			callFuncOnCollection(childhoodPhotos.getElementsByTagName("NOSCRIPT"), replaceNoscript);
-		}
-		if ("serviceWorker" in navigator) {
-			window.addEventListener("load", function() {
-				navigator.serviceWorker.register('/sw.js');
-			});
-		}
+		
     </script>
 </body>
 </html>
